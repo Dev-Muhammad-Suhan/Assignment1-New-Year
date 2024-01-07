@@ -126,7 +126,9 @@
     align-items: center;
 
 }
-
+.welcome-year-img{
+    border-radius: 16px;
+}
 .second-gradient {
 
     width: 1320px;
