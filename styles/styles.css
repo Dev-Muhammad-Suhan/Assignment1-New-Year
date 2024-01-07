@@ -16,6 +16,7 @@
     width: 82%;
     max-width: 1320px;
     margin: 0px auto;
+    margin-bottom: 120px;
 
     /* background-color: #f8c3c3; */
 }
@@ -74,4 +75,42 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* Discount Section */
+
+.discount-content h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+}
+
+.discount-content p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.discount-content h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 48px;
+}
+
+.discount-img{
+    text-align: center;
 }
