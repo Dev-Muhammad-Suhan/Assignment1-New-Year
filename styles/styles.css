@@ -21,6 +21,13 @@
     /* background-color: #f8c3c3; */
 }
 
+.description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
 
 /* Header Section */
 
@@ -194,9 +201,11 @@
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
-.place-time-content{
+
+.place-time-content {
     padding-top: 100px;
 }
+
 .place-time-content p {
     color: #070211;
     font-family: Inter;
@@ -228,4 +237,57 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* Offer Section */
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-content h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-content h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.offer-content p {
+    width: 390px;
+}
+
+.offer-year h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-year p {
+    width: 276px;
+    margin-bottom: 43px;
+}
+
+.offer-img {
+    width: 364.844px;
+    height: 364.844px;
+
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+    padding: 30px;
 }
