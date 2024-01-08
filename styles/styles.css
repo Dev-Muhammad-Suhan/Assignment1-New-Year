@@ -13,8 +13,8 @@
 /* Sheared */
 
 .container {
-    width: 82%;
     max-width: 1320px;
+    min-width: 1320px;
     margin: 0px auto;
     margin-bottom: 120px;
 
@@ -376,4 +376,9 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+}
+
+.subscribe-btn {
+    display: flex;
+    justify-content: center;
 }
