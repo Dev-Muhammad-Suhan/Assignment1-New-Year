@@ -291,3 +291,40 @@
 
     padding: 30px;
 }
+
+/* Gifts Section */
+.gift-description{
+    margin-bottom: 48px;
+}
+.gift-description h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-description h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 23px;
+}
+.gift-description p {
+    width: 896px;
+}
+
+.gift-img-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.img-box{
+    border-radius: 16px;
+}
+
+
+/* Newsletter Section */
+
+
