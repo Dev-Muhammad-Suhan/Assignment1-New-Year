@@ -293,9 +293,10 @@
 }
 
 /* Gifts Section */
-.gift-description{
+.gift-description {
     margin-bottom: 48px;
 }
+
 .gift-description h4 {
     color: #F00;
     font-family: Inter;
@@ -311,20 +312,68 @@
     font-weight: 900;
     margin-bottom: 23px;
 }
+
 .gift-description p {
     width: 896px;
 }
 
-.gift-img-box{
+.gift-img-box {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
-.img-box{
+
+.img-box {
     border-radius: 16px;
 }
 
 
 /* Newsletter Section */
 
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
 
+.newsletter-img {
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.newsletter h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter p {
+    width: 896px;
+    margin: 22px 212px 48px 212px;
+}
+
+.subscribe-btn input {
+    padding-left: 30px;
+    width: 438px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.subscribe-btn button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
