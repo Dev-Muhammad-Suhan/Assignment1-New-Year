@@ -17,8 +17,6 @@
     min-width: 1320px;
     margin: 0px auto;
     margin-bottom: 120px;
-
-    /* background-color: #f8c3c3; */
 }
 
 .description {
@@ -127,7 +125,6 @@
 .welcome {
     height: 600px;
     background-image: url(../resources/Vectorrr.png);
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -321,6 +318,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+
+    flex-shrink: 0;
 }
 
 .img-box {
