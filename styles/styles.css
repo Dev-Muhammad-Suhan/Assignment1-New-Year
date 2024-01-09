@@ -9,7 +9,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    min-width: 1350px;
+}
 /* Sheared */
 
 .container {
