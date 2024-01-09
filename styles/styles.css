@@ -95,7 +95,7 @@
 
 .banner-content h1 {
     width: 632px;
-
+    padding-top: 16px;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -136,6 +136,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 16px;
     padding-bottom: 48px;
 }
 
@@ -174,8 +175,12 @@
 
 }
 
-/*  */
-
+.welcome-content{
+    padding-left: 110px;
+}
+.welcome-year-img{
+    padding-right: 130px;
+}
 .welcome-content h1 {
     width: 642px;
     padding-bottom: 24px;
@@ -302,6 +307,7 @@
 .offer-year p {
     width: 276px;
     margin-bottom: 43px;
+    padding-top: 16px;
 }
 
 .offer-img {
@@ -317,6 +323,39 @@
 
     padding: 30px;
 }
+
+/* Holidays Section */
+.holiday-part-1 {
+    text-align: center;
+}
+
+.holiday-part-1 h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday-part-1 h1 span {
+    color: #F00;
+}
+
+.holiday-part-1 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.holiday-part-1 p{
+    width: 1068px;
+    height: 96px;
+    margin: 0px auto;
+}
+
 
 /* Gifts Section */
 .gift-description {
